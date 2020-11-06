@@ -24,7 +24,7 @@ class SlingShot{
     display(){
         
         if(this.sling.bodyA){
-            super.display();
+            line(this.sling.bodyA.position.x,this.sling.bodyA.position.y, this.pointB.x, this.pointB.y);
             
         }
     }
